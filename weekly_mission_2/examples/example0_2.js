@@ -4,5 +4,4 @@ const myObjetc2 = {
     age: 26
   }
   console.log("Ejemplo 2: Crear un objeto con propiedades")
-  
   console.log(myObjetc2)
