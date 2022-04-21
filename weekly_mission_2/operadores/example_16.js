@@ -7,10 +7,10 @@ const users = [
   ]
   
   users.sort((a, b) => { // podemos invocar una función
-    if (a.age < b.age) return -1
-    if (a.age > b.age) return 1
+    if (a.age < b.age) return 1
+    if (a.age > b.age) return -1
     return 0
   })
   
   console.log("Ejemplo 16: Ordenando una lista de objetos por la edad")
-  console.log(users) // sorted ascending
+  console.log(users) // sorted descending
