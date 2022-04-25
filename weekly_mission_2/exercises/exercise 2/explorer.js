@@ -59,7 +59,12 @@ const explorers = [
   }
 ]
 
-console.log("Inciso 1")
+console.log("Parte 1: Nombres")
 explorers.forEach(explorer => {
   console.log(explorer['name'])
+})
+
+console.log("Parte 2: Stack")
+explorers.forEach(explorer => {
+  console.log("El stack de "+ explorer['name'] +" es: " + explorer['stack'])
 })
