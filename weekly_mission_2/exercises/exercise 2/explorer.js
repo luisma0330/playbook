@@ -68,3 +68,7 @@ console.log("Parte 2: Stack")
 explorers.forEach(explorer => {
   console.log("El stack de "+ explorer['name'] +" es: " + explorer['stack'])
 })
+
+console.log("Parte 3: Nueva lista con los stack de los explorer")
+const stackList = explorers.map((stack) => stack['stack'])
+console.log(stackList)
