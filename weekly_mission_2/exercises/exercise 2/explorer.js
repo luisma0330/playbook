@@ -90,3 +90,7 @@ console.log(result_of_excercises_completed)
 console.log("Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME")
 const frontFinished = explorers.some((finished) => finished['missions']['frontend']['exercisesFinished'] === true)
 console.log("Al menos un explorer tiene la propiedad exercisesFinished como true: " + frontFinished)
+
+console.log("Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.")
+const allExplorerFinished = explorers.every((onboardingFinished) => onboardingFinished['missions']['onboarding']['isFinished'] == true)
+console.log(allExplorerFinished)
