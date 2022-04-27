@@ -72,3 +72,10 @@ explorers.forEach(explorer => {
 console.log("Parte 3: Nueva lista con los stack de los explorer")
 const stackList = explorers.map((stack) => stack['stack'])
 console.log(stackList)
+
+console.log("Parte 4: Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes)")
+
+const explorersContainingStackJS = explorers.filter((stackJS) => stackJS['stack'].includes('js'))
+explorersContainingStackJS.forEach(explorerWithJS => {
+  console.log(explorerWithJS['name'])
+})
