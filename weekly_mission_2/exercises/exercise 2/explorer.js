@@ -86,3 +86,7 @@ console.log(explorerCDMX['name'])
 console.log("Obtén la suma de todos los exercises_completed, usa REDUCE")
 const result_of_excercises_completed = explorers.reduce((acc, suma) => acc + suma['exercises_completed'], 0)
 console.log(result_of_excercises_completed)
+
+console.log("Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME")
+const frontFinished = explorers.some((finished) => finished['missions']['frontend']['exercisesFinished'] === true)
+console.log("Al menos un explorer tiene la propiedad exercisesFinished como true: " + frontFinished)
