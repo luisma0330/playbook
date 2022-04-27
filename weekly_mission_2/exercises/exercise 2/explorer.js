@@ -74,8 +74,11 @@ const stackList = explorers.map((stack) => stack['stack'])
 console.log(stackList)
 
 console.log("Parte 4: Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes)")
-
 const explorersContainingStackJS = explorers.filter((stackJS) => stackJS['stack'].includes('js'))
 explorersContainingStackJS.forEach(explorerWithJS => {
   console.log(explorerWithJS['name'])
 })
+
+console.log("Busca el primer explorer que sea de la CDMX, usa FIND")
+const explorerCDMX = explorers.find((explorerCDMX) => explorerCDMX['city'] === 'CDMX')
+console.log(explorerCDMX['name'])
