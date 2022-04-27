@@ -82,3 +82,7 @@ explorersContainingStackJS.forEach(explorerWithJS => {
 console.log("Busca el primer explorer que sea de la CDMX, usa FIND")
 const explorerCDMX = explorers.find((explorerCDMX) => explorerCDMX['city'] === 'CDMX')
 console.log(explorerCDMX['name'])
+
+console.log("Obtén la suma de todos los exercises_completed, usa REDUCE")
+const result_of_excercises_completed = explorers.reduce((acc, suma) => acc + suma['exercises_completed'], 0)
+console.log(result_of_excercises_completed)
