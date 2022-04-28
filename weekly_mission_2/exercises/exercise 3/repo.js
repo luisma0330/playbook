@@ -1,7 +1,8 @@
-class repo{
-    constructor(name, author, numberOfCommits, stars, forks, issues_open, issues_close){
+export default class Repo{
+    constructor(name, author, languaje, numberOfCommits, stars, forks, issues_open, issues_close){
         this.name = name
         this.author = author
+        this.languaje = languaje
         this.numberOfCommits = numberOfCommits
         this.stars = stars
         this.forks = forks

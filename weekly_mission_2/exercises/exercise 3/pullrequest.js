@@ -1,4 +1,4 @@
-class pullRequest{
+export default class PullRequest{
     constructor(title, branchName, dateCreated, status, author, repositoryNameAssociated){
         this.title = title
         this.branchName = branchName

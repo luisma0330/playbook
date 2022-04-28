@@ -1,4 +1,4 @@
-class issue{
+export default class Issue{
     constructor(tittle, repositoryNameAssociated, status, numberOfComments, labels, author, dateCreated, lastUpdated){
         this.tittle = tittle
         this.repositoryNameAssociated = repositoryNameAssociated
