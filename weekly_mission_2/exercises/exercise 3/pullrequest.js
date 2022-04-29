@@ -9,7 +9,7 @@ export default class PullRequest{
     }
 
     getStatus(){
-        return `The status for ${this.title} is: ${this.status}`
+        return this.status
     }
 
     getTitleAndAutor(){
