@@ -40,4 +40,4 @@ Hasta ahora explorer hemos recorrido ya 2 semanas juntos en esta travesía, recu
   8. Clases y Objetos (Programación Orientada a Objetos)
   9. Instanciar Objetos, agregar atributos y métodos.
   
-  Te recomiendo mucho ver los lives, los ejemplos de este repo, y las prácticas para que puedas comprender muy bien todo esto.
+ 
